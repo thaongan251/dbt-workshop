@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: enforce_contract
+    description: "Contracts are run before a model is built, if it fails, the model won't run!"
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        data_type: bigint
+        constraints:
+          - type: unique
+          - type: not_null
+      - name: first_name
+        data_type: string
+      - name: last_name
+        data_type: string
