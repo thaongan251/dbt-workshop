@@ -1,0 +1,10 @@
+dbt_ws:
+  outputs:
+    dev:
+      host: "{{ env_var('DBR_HOST') }}"
+      http_path: "{{ env_var('DBR_HTTP_PATH') }}"
+      schema: dbt_ws
+      threads: 6
+      token: "{{ env_var('DBR_TOKEN') }}"
+      type: databricks
+  target: dev
