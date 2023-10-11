@@ -9,4 +9,5 @@ def model(dbt, session):
     fact_orders = dbt.ref("fact_orders")
 
     df = fact_orders.withColumn("amount_multiply_10", multiply_n(fact_orders["amount"], 10))
+    
     return df
