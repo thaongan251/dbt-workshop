@@ -8,7 +8,7 @@
 - Run command: `dbt seed`
 
 ## Usages
-- **Folder structure**: https://docs.getdbt.com/guides/dbt-ecosystem/dbt-python-snowpark/7-folder-structure
+- **Folder structure**: [https://docs.getdbt.com/guides/dbt-ecosystem/dbt-python-snowpark/7-folder-structure](https://docs.getdbt.com/guides/best-practices/how-we-structure/1-guide-overview)
 - **dbt commands**: https://docs.getdbt.com/reference/dbt-commands
 
 ## References
