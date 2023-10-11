@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: versioning
+    lastest_version: 1
+    config:
+      contract: {enforced: true}
+    columns:
+      - name: id
+        data_type: bigint
+        constraints:
+          - type: unique
+          - type: not_null
+      - name: order_id
+        data_type: bigint
+      - name: payment_method
+        data_type: string
+      - name: amount
+        data_type: bigint
+    versions:
+      - v: 1
+        config:
+          materialized: view
+      - v: 2
+        config:
+          materialized: table
+        columns:
+          - include: all
+            exclude: [payment_method]

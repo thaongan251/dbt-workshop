@@ -1,5 +1,11 @@
 version: 2
 
+groups:
+  - name: customer_success
+    owner:
+      name: Customer Success Team
+      email: cx@jaffle.shop
+
 models:
   - name: enforce_contract
     description: "Contracts are run before a model is built, if it fails, the model won't run!"
