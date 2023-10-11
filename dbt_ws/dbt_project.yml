@@ -37,4 +37,11 @@ models:
       +materialized: table
     incremental:
       +materialized: table
+    governance:
+      +materialized: table
+    metrics:
+      +materialized: table
+    common:
+      +materialized: table
+
 

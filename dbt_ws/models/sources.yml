@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: dbt_ws
+    schema: dbt_ws
+    tables:
+      - name: my_source
+        freshness:
+          warn_after: {count: 2, period: day}
+          error_after: {count: 3, period: day}
+        loaded_at_field: from_utc_timestamp(to_timestamp(export_date), 'Asia/Ho_Chi_Minh')
