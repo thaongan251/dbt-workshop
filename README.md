@@ -54,11 +54,9 @@ Workshop about dbt features
     [1] Incremental models: https://docs.getdbt.com/docs/build/incremental-models
 
 ### 7. Further readings
-    [1] Model governance (Model access, Model contracts, Model versions): https://docs.getdbt.com/docs/collaborate/govern/about-model-governance 
-
-    [2] Incremental models in-depth: https://docs.getdbt.com/guides/best-practices/materializations/4-incremental-models
-
-    [3] Understanding dbt Incremental Strategies: https://medium.com/indiciumtech/understanding-dbt-incremental-strategies-part-1-2-22bd97c7eeb5
+- [1] Model governance (Model access, Model contracts, Model versions): https://docs.getdbt.com/docs/collaborate/govern/about-model-governance 
+- [2] Incremental models in-depth: https://docs.getdbt.com/guides/best-practices/materializations/4-incremental-models
+- [3] Understanding dbt Incremental Strategies:
+    https://medium.com/indiciumtech/understanding-dbt-incremental-strategies-part-1-2-22bd97c7eeb5
     https://medium.com/indiciumtech/understanding-dbt-incremental-strategies-part-2-2-add59889ea17 
-
-    [4] Upgrading to v1.5: https://docs.getdbt.com/guides/migration/versions/upgrading-to-v1.5
+- [4] Upgrading to v1.5: https://docs.getdbt.com/guides/migration/versions/upgrading-to-v1.5
