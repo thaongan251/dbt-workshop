@@ -1,0 +1,10 @@
+id,user_id,order_date,status,value
+1,1,2018-01-01,returned,214
+2,3,2018-01-02,completed,213
+3,94,2018-01-04,completed,122
+4,50,2018-01-05,completed,124
+5,99,2018-01-06,pending,165
+6,88,2018-01-07,completed,1325
+7,50,2018-01-08,completed,777
+8,99,2018-01-09,pending,555
+9,88,2018-01-10,completed,999
