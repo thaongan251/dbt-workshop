@@ -4,6 +4,7 @@
 - Make python virtual env by `python3 -m venv .env`
 - Activate python virtual env `source .env/bin/activate`.
 - Install dependencies python library by this command:  `python3 -m pip install -r requirements.txt`
+- Run command: `cd dbt_ws`
 - Run command: `dbt deps`
 - Run command: `dbt seed`
 
